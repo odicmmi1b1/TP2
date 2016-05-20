@@ -2,6 +2,7 @@
 {
 	margin: 0 30px;
 	background: #fff;
+	background-color:#DDDDDD;
 }
 
 #header
@@ -10,7 +11,7 @@
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin-left: 50%; }
 
 #navigation
 {
@@ -21,14 +22,17 @@
 
 #navigation ul
 {
-	margin: 0;
-	padding: 0;
+	margin-left:40%;
+	padding-bottom:30px;
+
+	
 }
 
 #navigation ul li
 {
 	list-style-type: none;
 	display: inline;
+	
 }
 
 #navigation li a
@@ -41,7 +45,20 @@
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover
+ { 
+	background: #99DDEE;
+	color: black;
+ }
+
+
+
+#article
+{
+	width:2000px;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 #edito
 {
@@ -50,7 +67,7 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 10px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
@@ -58,6 +75,11 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	width:40%;
+	margin-left:25%;
+	background-color:#99DDEE;
+	
+
 }
 
 #edito h2
@@ -69,7 +91,7 @@
 
 #news
 {	
-	float: left;
+	
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
@@ -83,13 +105,42 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	margin-left:25%;
+	background-color:#99DDEE;
+	
+	
 }
+
+#news h3 a 
+{
+	text-decoration:none;
+	color: black;
+}
+
+#news h3 a:hover
+{
+	color:white;
+	background: black;
+}
+
 
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: right;
+	background: black;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
+	color:white;
+}
+#footer a
+{
+	text-decoration:none;
+	color:white;
+}
+
+#footer a:hover 
+{
+	background-color: white;
+	color:black;
 }
