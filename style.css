@@ -2,6 +2,7 @@
 {
 	margin: 0 30px;
 	background: #fff;
+	background-color:#DDDDDD;
 }
 
 #header
@@ -44,7 +45,11 @@
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover
+ { 
+	background: #99DDEE;
+	color: black;
+ }
 
 
 
@@ -72,7 +77,7 @@
 	opacity: 0.83;
 	width:40%;
 	margin-left:25%;
-	
+	background-color:#99DDEE;
 	
 
 }
@@ -101,6 +106,7 @@
 	background-clip: padding-box;
 	opacity: 0.83;
 	margin-left:25%;
+	background-color:#99DDEE;
 	
 	
 }
@@ -108,8 +114,20 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: black;
 	text-align: center;
 	padding: 20px;
 	height: 1%;
+	color:white;
+}
+#footer a
+{
+	text-decoration:none;
+	color:white;
+}
+
+#footer a:hover 
+{
+	background-color: white;
+	color:black;
 }
