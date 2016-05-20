@@ -111,6 +111,19 @@
 	
 }
 
+#news h3 a 
+{
+	text-decoration:none;
+	color: black;
+}
+
+#news h3 a:hover
+{
+	color:white;
+	background: black;
+}
+
+
 #footer
 {
 	clear: both;
