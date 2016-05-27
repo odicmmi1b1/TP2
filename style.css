@@ -2,10 +2,12 @@
 {
 	margin: 0 30px;
 	background: #fff;
+	background-image:url(tlt.gif);
 }
 
 #header
 {
+
 	background: #ccc;
 	padding: 20px;
 }
@@ -62,13 +64,15 @@
 
 #edito h2
 {
-	color: #000;
+        background-image:url(wow.gif);
+	color: #464496;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
 
 #news
 {	
+background-image:url(frog.gif);
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -87,6 +91,7 @@
 
 #footer
 {
+background-image:url(cat.gif);
 	clear: both;
 	background: #ccc;
 	text-align: right;
